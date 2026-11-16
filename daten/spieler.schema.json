@@ -7,16 +7,15 @@
     "properties": {
       "name": { "type": "string" },
       "welt": { "type": "string", "enum": ["minx", "alte-welt"] },
-      "spieltage": { "type": "integer" },
-      "spielfeuer": { "type": "integer" },
       "statistiken": {
         "type": "object",
         "properties": {
-          "gefallene_tode": { "type": "integer" },
-          "killed_spieler": { "type": "integer" },
-          "blöcke_abbau": { "type": "integer" },
-          "blöcke_bau": { "type": "integer" },
-          "distanz": { "type": "integer" }
+          "tode": { "type": "integer" },
+          "spieler_treffen": { "type": "integer" },
+          "bloecke_abbau": { "type": "integer" },
+          "bloecke_bau": { "type": "integer" },
+          "distanz_km": { "type": "integer" },
+          "spielzeit_stunden": { "type": "integer" }
         }
       }
     }
